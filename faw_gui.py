@@ -87,7 +87,7 @@ def format_solution(solution_list):
     elif (xinc, yinc) in [(-1, 1)]:
         direction = "DOWN DIAGONAL BACKWARDS"
         
-    return f"{w.upper():>15} ({x:2}, {y:2}) {direction}"
+    return f"{w.upper():>15} ({y:2}, {x:2}) {direction}"
 
     
 if __name__ == "__main__":
