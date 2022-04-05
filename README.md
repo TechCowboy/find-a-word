@@ -5,7 +5,7 @@ and interacting with it with text and graphical user interfaces
 
 If you use this code, please credit this repository
 
-word list:
+## word list:
 
     The 'all words' list was downloaded from
     https://www.sketchengine.eu/english-word-list/#tab-id
@@ -20,8 +20,9 @@ word list:
     in them (e.g., U.S., etc.) and any word less than 3 characters
 
 
-user module:
+## user module:
 
+```
   User modules require, at minimum, a blank __init__.py file and
   a the directory for the sources added to the LIB path 
 
@@ -29,14 +30,20 @@ user module:
 
   faw.py      - contains a class for creating a find-a-word grid and the
                 solution within it
+```
 
+## GUIs:
 
-GUIs:
-
+```
   faw_gui.py  - Text based user interface.  No user interaction
+```
+![Text Based Gui](/images/text_gui.png)
 
+```
   faw_gui2.py - Graphical user interface.  User clicks on first 
                 character of a word to highlight it in the grid
                 and on the word list
 
+```
+![Graphical Gui](/images/graphical_gui.png)
 
