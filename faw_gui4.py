@@ -190,9 +190,9 @@ def LibreOfficeWords(words_in):
 def LibreOfficeGrid(grid_in):
     print("LibreOfficeGrid")
     for row1 in range(len(grid_in[0])):
-        a = "".join(grid_in[row1])
-        for column1 in range(len(a)):
-            ag.typewrite(a[column1] + " ")
+        a1 = "".join(grid_in[row1])
+        for column1 in range(len(a1)):
+            ag.typewrite(a1[column1] + " ")
             
         ag.hotkey('enter')
         
@@ -210,12 +210,14 @@ def LibreOfficePrint():
 
 def LibreOfficeQuit():
     print("LibreOfficeQuit")
+    time.sleep(3)
     ag.hotkey('ctrl','q')
+    time.sleep(3)
     ag.typewrite('n')
     
 if __name__ == "__main__":
     
-    total_puzzles = 1
+    total_puzzles = 10
     
     LibreOfficeSetup()
   
