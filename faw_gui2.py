@@ -235,7 +235,7 @@ def main():
     
     win = pygame.display.set_mode((WIN_WIDTH, win_height))
     
-    pygame.display.set_caption("Find a word!")
+    pygame.display.set_caption("Find a word! - PyGame")
 
     # keep repeating until user quits
 
